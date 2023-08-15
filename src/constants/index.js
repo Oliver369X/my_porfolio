@@ -1,7 +1,4 @@
 import {
-  mobile,
-  backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -19,9 +16,6 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   Python,
   Tensorflow,
@@ -31,6 +25,15 @@ import {
   Scikit_learn,
   aws,
   Apache_Spark,
+  LangChain,
+  Pytorch,
+  TTS_audiobook,
+  Ruta_deep_learning,
+  portfolio,
+  Data_Science,
+  ML,
+  DL,
+  python,
 } from "../assets";
 
 export const navLinks = [
@@ -55,31 +58,23 @@ export const navLinks = [
 const services = [
   {
     title: "Python Developer",
-    icon: Python,
+    icon: python,
   },
   {
-    title: "data analyst",
-    icon: mobile,
+    title: "Data Science",
+    icon: Data_Science,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Machine learning",
+    icon: ML,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Deep Learning",
+    icon: DL,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
   {
     name: "JavaScript",
     icon: javascript,
@@ -101,20 +96,28 @@ const technologies = [
     icon: Postgresql,
   },
   {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "LangChain",
+    icon: LangChain,
+  },
+  {
     name: "Tensorflow",
     icon: Tensorflow,
   },
   {
-    name: "Apache Spark",
-    icon: Apache_Spark,
+    name: "Pytorch",
+    icon: Pytorch,
   },
   {
     name: "Scikit Learn",
     icon: Scikit_learn,
   },
   {
-    name: "git",
-    icon: git,
+    name: "Keras",
+    icon: Keras,
   },
   {
     name: "aws",
@@ -210,67 +213,71 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "TTS_Audiobook_Maker",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    "Audiobook Generator with TTS is a powerful and user-friendly platform that converts written content into engaging audiobooks using advanced Text-to-Speech (TTS) technology.",
     tags: [
       {
-        name: "react",
+        name: "TTS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Streamlit",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Python",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: TTS_audiobook,
+    source_code_link: "https://github.com/Oliver369X/TTS_Audiobook_Maker",
   },
   {
-    name: "Job IT",
+    name: "Ruta Deep Learning",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    "Deep Learning Journey: A Compilation of Course Notes for documenting my learning experience. These notes will serve as a valuable resource for future teaching on artificial intelligence, providing insight into the field.",
     tags: [
       {
-        name: "react",
+        name: "Tensorflow",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "pytorch",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Keras",
         color: "pink-text-gradient",
       },
+      {
+        name: "CNN & LLM",
+        color: "orange-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: Ruta_deep_learning,
+    source_code_link: "https://github.com/Oliver369X/Ruta_deep_learning_platzi",
   },
   {
-    name: "Trip Guide",
+    name: "Portfolio",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    "Personal Portfolio: Showcasing my journey, skills, and projects in the world of technology and creativity. Explore my work and accomplishments as I continue to learn, innovate, and contribute to the digital landscape.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Tailwind css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Three js",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/Oliver369X/my_porfolio",
   },
 ];
 

@@ -1,11 +1,12 @@
 import logo from "./logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import Data_Science from "./Data-Science.jpg";
+import ML from "./ML.png";
+import DL from "./deep_learning.jpg"
+import python from "./python.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -30,21 +31,23 @@ import Pytorch from "./tech/Pytorch.png";
 import Keras from "./tech/Keras.png";
 import django from "./tech/django.png";
 import Power_Bi from "./tech/Power_Bi.png";
+import LangChain from "./tech/LangChain.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import TTS_audiobook from "./TTS-audiobook.png";
+import Ruta_deep_learning from "./Ruta_deep_learning.png";
+import portfolio from "./portfolio.png"
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
+  Data_Science,
+  ML,
+  DL,
+  python,
   web,
   github,
   menu,
@@ -66,9 +69,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  TTS_audiobook,
+  Ruta_deep_learning,
+  portfolio,
   Python,
   Tensorflow,
   Scikit_learn,
@@ -79,4 +82,5 @@ export {
   Postgresql,
   Pytorch,
   django,
+  LangChain
 };

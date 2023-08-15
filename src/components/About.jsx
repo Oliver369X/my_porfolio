@@ -24,7 +24,7 @@ const ServiceCard = ({ index, title, icon }) => (
         <img
           src={icon}
           alt='web-development'
-          className='w-16 h-16 object-contain'
+          className='w-30 h-30 object-contain'
         />
 
         <h3 className='text-white text-[20px] font-bold text-center'>
@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am passionate about data and artificial intelligence, with experience in the programming language Python. I have some knowledge of front-end and experience in back-end that I hope to apply in future data science projects. I would love to work on projects that involve the application of data science and machine learning techniques to real-life problems.
+        I'm passionate about data science, machine learning, and deep learning, with a solid academic background and experience in data analysis, mining, and AI solutions. My focus lies in tackling complex problems using advanced algorithms. With proficiency in Python and some front-end/back-end knowledge, I aim to contribute to challenging data science projects and create innovative solutions that address real-world issues, all while continuously learning in the evolving fields of data science, machine learning, and AI.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

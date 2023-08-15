@@ -93,7 +93,7 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
         <div className='flex items-center justify-center'>
-          <a href='https://www.example.com'>
+          <a href='https://github.com/Oliver369X'>
             <button className='bg-primary text-white px-4 py-2 rounded-full hover:bg-primary-dark transition-all duration-200'>
               See more
             </button>
